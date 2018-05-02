@@ -1,0 +1,98 @@
+auto datalogger user selected.vi
+    - The VI expected to be at "<userlib>:\Time\time since midnight.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Process Controller 3.0\time since midnight.vi".
+auto datalogger.vi
+    - The VI expected to be at "<userlib>:\Time\time since midnight.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Process Controller 3.0\time since midnight.vi".
+auto statelogger.vi
+    - The VI expected to be at "<userlib>:\Time\time since midnight.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Process Controller 3.0\time since midnight.vi".
+calibrate DO.vi
+    - The VI expected to be at "<userlib>:\Graph\graphbuffer.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Process Controller 3.0\graphbuffer.vi".
+Calibrator.vi
+    - The VI expected to be at "<userlib>:\Graph\graphbuffer.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Process Controller 3.0\graphbuffer.vi".
+convert to pumps.vi
+    - The control expected to be at "<userlib>:\Peristaltic\3-stop colors and numbers.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\3-stop colors and numbers.ctl".
+    - The control expected to be at "<userlib>:\Peristaltic\Pump w direction.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Pump w direction.ctl".
+    - The control expected to be at "<userlib>:\Rapid Filter Tester 2\Pump Direction.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Pump Direction.ctl".
+    - The control expected to be at "<userlib>:\Rapid Filter Tester 2\mini peristaltic pump.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\mini peristaltic pump.ctl".
+    - The control expected to be at "<userlib>:\Stamp 3\Stamp 2 control.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Stamp 2 control.ctl".
+End communcation.vi
+    - The VI expected to be at "<userlib>:\Stamp 3\read serial reply.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\read serial reply.vi".
+    - The VI expected to be at "<userlib>:\Stamp 3\write char.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\write char.vi".
+HMI object.vi
+    - The control expected to be at "<userlib>:\Stamp\switch and fraction.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Process Controller 3.0\switch and fraction.ctl".
+NF90 calibrator.vi
+    - The VI expected to be at "<userlib>:\file\Write str to xls File.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Spectrophotometer\Write str to xls File.vi".
+    - The VI expected to be at "<userlib>:\file\Write to xls File.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Spectrophotometer\Write to xls File.vi".
+pH calibration.vi
+    - The VI expected to be at "<userlib>:\Graph\graphbuffer.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Process Controller 3.0\graphbuffer.vi".
+Process Controller.vi
+    - The VI expected to be at "<userlib>:\Graph\all sensor graphbuffer.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Process Controller 3.0\all sensor graphbuffer.vi".
+    - The VI expected to be at "<userlib>:\Pump calibration\pump calibration dialog.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\pump calibration dialog.vi".
+    - The VI expected to be at "<userlib>:\Pump calibration\pump calibration.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\pump calibration.vi".
+    - The VI expected to be at "<userlib>:\Stamp 3\Stamp 3 interface.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Stamp 3 interface.vi".
+    - The VI expected to be at "<userlib>:\Stamp 3\Stamp interface with PWM and calibration.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Stamp interface with PWM and calibration.vi".
+    - The control expected to be at "<userlib>:\Pump calibration\calibration commands.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\calibration commands.ctl".
+    - The control expected to be at "<userlib>:\Stamp 2\stamp command.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\stamp command.ctl".
+    - The control expected to be at "<userlib>:\Stamp\switch and fraction.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Process Controller 3.0\switch and fraction.ctl".
+pump calibration dialog.vi
+    - The VI expected to be at "<userlib>:\Pump calibration\pump calibration.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\pump calibration.vi".
+    - The VI expected to be at "<userlib>:\Pump calibration\rpm calibration.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\rpm calibration.vi".
+    - The control expected to be at "<userlib>:\Pump calibration\calibration commands.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\calibration commands.ctl".
+    - The control expected to be at "<userlib>:\Pump calibration\calibration values.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\calibration values.ctl".
+pump calibration.vi
+    - The VI expected to be at "<userlib>:\Pump calibration\slope corrector.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\slope corrector.vi".
+    - The control expected to be at "<userlib>:\Pump calibration\calibration commands.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\calibration commands.ctl".
+    - The control expected to be at "<userlib>:\Pump calibration\calibration values.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\calibration values.ctl".
+pump rpm all tubing.vi
+    - The VI expected to be at "<userlib>:\Filter Tester 2\Pump modulator.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Pump modulator.vi".
+    - The VI expected to be at "<userlib>:\Pump calibration\pump calibration.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\pump calibration.vi".
+    - The control expected to be at "<userlib>:\Peristaltic\3-stop colors and numbers.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\3-stop colors and numbers.ctl".
+    - The control expected to be at "<userlib>:\Peristaltic\Pump w direction.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Pump w direction.ctl".
+    - The control expected to be at "<userlib>:\Pump calibration\calibration commands.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\calibration commands.ctl".
+    - The control expected to be at "<userlib>:\Rapid Filter Tester 2\Pump Direction.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Pump Direction.ctl".
+    - The control expected to be at "<userlib>:\Rapid Filter Tester 2\mini peristaltic pump.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\mini peristaltic pump.ctl".
+pump to booleans.vi
+    - The control expected to be at "<userlib>:\Peristaltic\3-stop colors and numbers.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\3-stop colors and numbers.ctl".
+    - The control expected to be at "<userlib>:\Peristaltic\Pump w direction.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Pump w direction.ctl".
+    - The control expected to be at "<userlib>:\Rapid Filter Tester 2\Pump Direction.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Pump Direction.ctl".
+    - The control expected to be at "<userlib>:\Rapid Filter Tester 2\mini peristaltic pump.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\mini peristaltic pump.ctl".
+    - The control expected to be at "<userlib>:\Stamp 3\Stamp 2 control.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Stamp 2 control.ctl".
+Pump w direction.ctl
+    - The control expected to be at "<userlib>:\Peristaltic\3-stop colors and numbers.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\3-stop colors and numbers.ctl".
+    - The control expected to be at "<userlib>:\Rapid Filter Tester 2\Pump Direction.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Pump Direction.ctl".
+    - The control expected to be at "<userlib>:\Rapid Filter Tester 2\mini peristaltic pump.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\mini peristaltic pump.ctl".
+readwrite.vi
+    - The VI expected to be at "<userlib>:\Stamp 3\read serial reply.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\read serial reply.vi".
+    - The VI expected to be at "<userlib>:\Stamp 3\write char.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\write char.vi".
+slope corrector.vi
+    - The control expected to be at "<userlib>:\Pump calibration\calibration values.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\calibration values.ctl".
+Stamp 2 control.ctl
+    - The control expected to be at "<userlib>:\Peristaltic\3-stop colors and numbers.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\3-stop colors and numbers.ctl".
+    - The control expected to be at "<userlib>:\Peristaltic\Pump w direction.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Pump w direction.ctl".
+    - The control expected to be at "<userlib>:\Rapid Filter Tester 2\Pump Direction.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Pump Direction.ctl".
+    - The control expected to be at "<userlib>:\Rapid Filter Tester 2\mini peristaltic pump.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\mini peristaltic pump.ctl".
+Stamp 3 interface.vi
+    - The VI expected to be at "<userlib>:\Peristaltic\pump rpm all tubing.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\pump rpm all tubing.vi".
+    - The VI expected to be at "<userlib>:\Stamp 3\Stamp communication 3.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Stamp communication 3.vi".
+    - The control expected to be at "<userlib>:\Peristaltic\3-stop colors and numbers.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\3-stop colors and numbers.ctl".
+    - The control expected to be at "<userlib>:\Peristaltic\Pump w direction.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Pump w direction.ctl".
+    - The control expected to be at "<userlib>:\Rapid Filter Tester 2\Pump Direction.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Pump Direction.ctl".
+    - The control expected to be at "<userlib>:\Rapid Filter Tester 2\mini peristaltic pump.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\mini peristaltic pump.ctl".
+    - The control expected to be at "<userlib>:\Stamp 2\stamp command.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\stamp command.ctl".
+    - The control expected to be at "<userlib>:\Stamp 3\Stamp 2 control.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Stamp 2 control.ctl".
+Stamp communication 3.vi
+    - The VI expected to be at "<userlib>:\Stamp 3\End communcation.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\End communcation.vi".
+    - The VI expected to be at "<userlib>:\Stamp 3\Stamp Version.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Stamp Version.vi".
+    - The VI expected to be at "<userlib>:\Stamp 3\readwrite.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\readwrite.vi".
+Stamp interface with PWM and calibration.vi
+    - The VI expected to be at "<userlib>:\Stamp 3\Stamp 3 interface.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\Stamp 3 interface.vi".
+    - The VI expected to be at "<userlib>:\Stamp 3\convert to pumps.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\convert to pumps.vi".
+    - The VI expected to be at "<userlib>:\Stamp 3\pump to booleans.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\pump to booleans.vi".
+    - The control expected to be at "<userlib>:\Stamp 2\stamp command.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\stamp command.ctl".
+    - The control expected to be at "<userlib>:\Stamp\switch and fraction.ctl" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Process Controller 3.0\switch and fraction.ctl".
+Stamp Version.vi
+    - The VI expected to be at "<userlib>:\Stamp 3\read serial reply.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\read serial reply.vi".
+    - The VI expected to be at "<userlib>:\Stamp 3\write char.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Stamp\write char.vi".
+state graph.vi
+    - The VI expected to be at "<userlib>:\Graph\all sensor graphbuffer.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Process Controller 3.0\all sensor graphbuffer.vi".
+Write comment to file.vi
+    - The VI expected to be at "<userlib>:\file\Write str to xls File.vi" was loaded from "C:\Program Files\National Instruments\LabVIEW 8.0\user.lib\Spectrophotometer\Write str to xls File.vi".

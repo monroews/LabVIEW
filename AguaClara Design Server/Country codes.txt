@@ -1,0 +1,274 @@
+"Table 1. Countries, Dependencies, and Areas of Special Sovereignty (Alphabetical by Name)"		
+http://earth-info.nga.mil/gns/html/gazetteers2.html		
+Code	Name (Upper Case)	Name (Upper and Lower Case)
+AF	AFGHANISTAN	Afghanistan
+AX	AKROTIRI	Akrotiri
+AL	ALBANIA	Albania
+AG	ALGERIA	Algeria
+AQ	AMERICAN SAMOA	American Samoa
+AN	ANDORRA	Andorra
+AO	ANGOLA	Angola
+AV	ANGUILLA	Anguilla
+AY	ANTARCTICA	Antarctica
+AC	ANTIGUA AND BARBUDA	Antigua and Barbuda
+AR	ARGENTINA	Argentina
+AM	ARMENIA	Armenia
+AA	ARUBA	Aruba
+AT	ASHMORE AND CARTIER ISLANDS	Ashmore and Cartier Islands
+AS	AUSTRALIA	Australia
+AU	AUSTRIA	Austria
+AJ	AZERBAIJAN	Azerbaijan
+BF	"BAHAMAS, THE"	"Bahamas, The"
+BA	BAHRAIN	Bahrain
+FQ	BAKER ISLAND	Baker Island
+BG	BANGLADESH	Bangladesh
+BB	BARBADOS	Barbados
+BS	BASSAS DA INDIA	Bassas da India
+BO	BELARUS	Belarus
+BE	BELGIUM	Belgium
+BH	BELIZE	Belize
+BN	BENIN	Benin
+BD	BERMUDA	Bermuda
+BT	BHUTAN	Bhutan
+BL	BOLIVIA	Bolivia
+BK	BOSNIA AND HERZEGOVINA	Bosnia and Herzegovina
+BC	BOTSWANA	Botswana
+BV	BOUVET ISLAND	Bouvet Island
+BR	BRAZIL	Brazil
+IO	BRITISH INDIAN OCEAN TERRITORY	British Indian Ocean Territory
+BX	BRUNEI	Brunei
+BU	BULGARIA	Bulgaria
+UV	BURKINA FASO	Burkina Faso
+BM	BURMA	Burma
+BY	BURUNDI	Burundi
+CB	CAMBODIA	Cambodia
+CM	CAMEROON	Cameroon
+CA	CANADA	Canada
+CV	CAPE VERDE	Cape Verde
+CJ	CAYMAN ISLANDS	Cayman Islands
+CT	CENTRAL AFRICAN REPUBLIC	Central African Republic
+CD	CHAD	Chad
+CI	CHILE	Chile
+CH	CHINA	China
+KT	CHRISTMAS ISLAND	Christmas Island
+IP	CLIPPERTON ISLAND	Clipperton Island
+CK	COCOS (KEELING) ISLANDS	Cocos (Keeling) Islands
+CO	COLOMBIA	Colombia
+CN	COMOROS	Comoros
+CF	CONGO (BRAZZAVILLE)	Congo (Brazzaville)
+CG	CONGO (KINSHASA)	Congo (Kinshasa)
+CW	COOK ISLANDS	Cook Islands
+CR	CORAL SEA ISLANDS	Coral Sea Islands
+CS	COSTA RICA	Costa Rica
+IV	CÔTE D’IVOIRE	Côte d’Ivoire
+HR	CROATIA	Croatia
+CU	CUBA	Cuba
+UC	CURAÇAO	Curaçao
+CY	CYPRUS	Cyprus
+EZ	CZECH REPUBLIC	Czech Republic
+DA	DENMARK	Denmark
+DX	DHEKELIA	Dhekelia
+DJ	DJIBOUTI	Djibouti
+DO	DOMINICA	Dominica
+DR	DOMINICAN REPUBLIC	Dominican Republic
+EC	ECUADOR	Ecuador
+EG	EGYPT	Egypt
+ES	EL SALVADOR	El Salvador
+EK	EQUATORIAL GUINEA	Equatorial Guinea
+ER	ERITREA	Eritrea
+EN	ESTONIA	Estonia
+ET	ETHIOPIA	Ethiopia
+PJ	"ETOROFU, HABOMAI, KUNASHIRI, AND SHIKOTAN ISLANDS"	"Etorofu, Habomai, Kunashiri, and Shikotan Islands"
+EU	EUROPA ISLAND	Europa Island
+FK	FALKLAND ISLANDS (ISLAS MALVINAS)	Falkland Islands (Islas Malvinas)
+FO	FAROE ISLANDS	Faroe Islands
+FJ	FIJI	Fiji
+FI	FINLAND	Finland
+FR	FRANCE	France
+FG	FRENCH GUIANA	French Guiana
+FP	FRENCH POLYNESIA	French Polynesia
+FS	FRENCH SOUTHERN AND ANTARCTIC LANDS	French Southern and Antarctic Lands
+GB	GABON	Gabon
+GA	"GAMBIA, THE"	"Gambia, The"
+GZ	GAZA STRIP	Gaza Strip
+GG	GEORGIA	Georgia
+GM	GERMANY	Germany
+GH	GHANA	Ghana
+GI	GIBRALTAR	Gibraltar
+GO	GLORIOSO ISLANDS	Glorioso Islands
+GR	GREECE	Greece
+GL	GREENLAND	Greenland
+GJ	GRENADA	Grenada
+GP	GUADELOUPE	Guadeloupe
+GQ	GUAM	Guam
+GT	GUATEMALA	Guatemala
+GK	GUERNSEY	Guernsey
+GV	GUINEA	Guinea
+PU	GUINEA-BISSAU	Guinea-Bissau
+GY	GUYANA	Guyana
+HA	HAITI	Haiti
+HM	HEARD ISLAND AND MCDONALD  ISLANDS	Heard Island and McDonald  Islands
+HO	HONDURAS	Honduras
+HK	HONG KONG	Hong Kong
+HQ 	HOWLAND ISLAND	Howland Island
+HU	HUNGARY	Hungary
+IC	ICELAND	Iceland
+IN	INDIA	India
+ID	INDONESIA	Indonesia
+IR	IRAN	Iran
+IZ	IRAQ	Iraq
+EI	IRELAND	Ireland
+IM	ISLE OF MAN	Isle of Man
+IS	ISRAEL	Israel
+IT	ITALY	Italy
+JM	JAMAICA	Jamaica
+JN	JAN MAYEN	Jan Mayen
+JA	JAPAN	Japan
+DQ	JARVIS ISLAND	Jarvis Island
+JE	JERSEY	Jersey
+JQ	JOHNSTON ATOLL	Johnston Atoll
+JO	JORDAN	Jordan
+JU	JUAN DE NOVA ISLAND	Juan de Nova Island
+KZ	KAZAKHSTAN	Kazakhstan
+KE	KENYA	Kenya
+KQ	KINGMAN REEF	Kingman Reef
+KR	KIRIBATI	Kiribati
+KN	"KOREA, NORTH"	"Korea, North"
+KS	"KOREA, SOUTH"	"Korea, South"
+KV	KOSOVO	Kosovo
+KU	KUWAIT	Kuwait
+KG	KYRGYZSTAN	Kyrgyzstan
+LA	LAOS	Laos
+LG	LATVIA	Latvia
+LE	LEBANON	Lebanon
+LT	LESOTHO	Lesotho
+LI	LIBERIA	Liberia
+LY	LIBYA	Libya
+LS	LIECHTENSTEIN	Liechtenstein
+LH	LITHUANIA	Lithuania
+LU	LUXEMBOURG	Luxembourg
+MC	MACAU	Macau
+MK	MACEDONIA	Macedonia
+MA	MADAGASCAR	Madagascar
+MI	MALAWI	Malawi
+MY	MALAYSIA	Malaysia
+MV	MALDIVES	Maldives
+ML	MALI	Mali
+MT	MALTA	Malta
+RM	MARSHALL ISLANDS	Marshall Islands
+MB	MARTINIQUE	Martinique
+MR	MAURITANIA	Mauritania
+MP	MAURITIUS	Mauritius
+MF	MAYOTTE	Mayotte
+MX	MEXICO	Mexico
+FM	"MICRONESIA, FEDERATED STATES OF"	"Micronesia, Federated States of"
+MQ 	MIDWAY ISLANDS	Midway Islands
+MD	MOLDOVA	Moldova
+MN	MONACO	Monaco
+MG	MONGOLIA	Mongolia
+MJ	MONTENEGRO	Montenegro
+MH	MONTSERRAT	Montserrat
+MO	MOROCCO	Morocco
+MZ	MOZAMBIQUE	Mozambique
+WA	NAMIBIA	Namibia
+NR	NAURU	Nauru
+BQ	NAVASSA ISLAND	Navassa Island
+NP	NEPAL	Nepal
+NL	NETHERLANDS	Netherlands
+NC	NEW CALEDONIA	New Caledonia
+NZ	NEW ZEALAND	New Zealand
+NU	NICARAGUA	Nicaragua
+NG	NIGER	Niger
+NI	NIGERIA	Nigeria
+NE	NIUE	Niue
+NF	NORFOLK ISLAND	Norfolk Island
+CQ	NORTHERN MARIANA ISLANDS	Northern Mariana Islands
+NO	NORWAY	Norway
+MU	OMAN	Oman
+PK	PAKISTAN	Pakistan
+PS	PALAU	Palau
+LQ	PALMYRA ATOLL	Palmyra Atoll
+PM	PANAMA	Panama
+PP	PAPUA NEW GUINEA	Papua New Guinea
+PF	PARACEL ISLANDS	Paracel Islands
+PA	PARAGUAY	Paraguay
+PE	PERU	Peru
+RP	PHILIPPINES	Philippines
+PC	PITCAIRN ISLANDS	Pitcairn Islands
+PL	POLAND	Poland
+PO	PORTUGAL	Portugal
+RQ	PUERTO RICO	Puerto Rico
+QA	QATAR	Qatar
+RE	REUNION	Reunion
+RO	ROMANIA	Romania
+RS	RUSSIA	Russia
+RW	RWANDA	Rwanda
+TB	SAINT BARTHELEMY	Saint Barthelemy
+SH	"SAINT HELENA, ASCENSION, AND TRISTAN DA CUNHA"	"Saint Helena, Ascension, and Tristan da Cunha"
+SC	SAINT KITTS AND NEVIS	Saint Kitts and Nevis
+ST	SAINT LUCIA	Saint Lucia
+RN	SAINT MARTIN	Saint Martin
+SB	SAINT PIERRE AND MIQUELON	Saint Pierre and Miquelon
+VC	SAINT VINCENT AND THE GRENADINES	Saint Vincent and the Grenadines
+WS	SAMOA	Samoa
+SM	SAN MARINO	San Marino
+TP	SAO TOME AND PRINCIPE	Sao Tome and Principe
+SA	SAUDI ARABIA	Saudi Arabia
+SG	SENEGAL	Senegal
+RI	SERBIA	Serbia
+SE	SEYCHELLES	Seychelles
+SL	SIERRA LEONE	Sierra Leone
+SN	SINGAPORE	Singapore
+NN	SINT MAARTEN	Sint Maarten
+LO	SLOVAKIA	Slovakia
+SI	SLOVENIA	Slovenia
+BP	SOLOMON ISLANDS	Solomon Islands
+SO	SOMALIA	Somalia
+SF	SOUTH AFRICA	South Africa
+SX	SOUTH GEORGIA AND SOUTH SANDWICH ISLANDS	South Georgia and South Sandwich Islands
+OD	SOUTH SUDAN	South Sudan
+SP	SPAIN	Spain
+PG	SPRATLY ISLANDS	Spratly Islands
+CE	SRI LANKA	Sri Lanka
+SU	SUDAN	Sudan
+NS	SURINAME	Suriname
+SV	SVALBARD	Svalbard
+WZ	SWAZILAND	Swaziland
+SW	SWEDEN	Sweden
+SZ	SWITZERLAND	Switzerland
+SY	SYRIA	Syria
+TW	TAIWAN	Taiwan
+TI	TAJIKISTAN	Tajikistan
+TZ	TANZANIA	Tanzania
+TH	THAILAND	Thailand
+TT	TIMOR-LESTE	Timor-Leste
+TO	TOGO	Togo
+TL	TOKELAU	Tokelau
+TN	TONGA	Tonga
+TD	TRINIDAD AND TOBAGO	Trinidad and Tobago
+TE	TROMELIN ISLAND	Tromelin Island
+TS	TUNISIA	Tunisia
+TU	TURKEY	Turkey
+TX	TURKMENISTAN	Turkmenistan
+TK	TURKS AND CAICOS ISLANDS	Turks and Caicos Islands
+TV	TUVALU	Tuvalu
+UG	UGANDA	Uganda
+UP	UKRAINE	Ukraine
+AE	UNITED ARAB EMIRATES	United Arab Emirates
+UK	UNITED KINGDOM	United Kingdom
+US	UNITED STATES	United States
+UY	URUGUAY	Uruguay
+UZ	UZBEKISTAN	Uzbekistan
+NH	VANUATU	Vanuatu
+VT	VATICAN CITY	Vatican City
+VE	VENEZUELA	Venezuela
+VM	VIETNAM	Vietnam
+VI	"VIRGIN ISLANDS, BRITISH"	"Virgin Islands, British"
+VQ 	"VIRGIN ISLANDS, U.S."	"Virgin Islands, U.S."
+WQ	WAKE ISLAND	Wake Island
+WF	WALLIS AND FUTUNA	Wallis and Futuna
+WE	WEST BANK	West Bank
+WI	WESTERN SAHARA	Western Sahara
+YM	YEMEN	Yemen
+ZA	ZAMBIA	Zambia
+ZI	ZIMBABWE	Zimbabwe

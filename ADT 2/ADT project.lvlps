@@ -1,0 +1,33 @@
+[ProjectWindow_Data]
+ProjectExplorer.ClassicPosition[String] = "83,141,820,717"
+
+[AB_Cache_{1023E6EC-7C6D-45AB-9056-F3A10E2E6A1C}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "64dbabd314b3c6966994d509ed024681"
+Cache_GenFile_Count[Integer] = 2
+Cache_GenFile[0][Path] Line0001 = "/C/Users/design/Documents/LabVIEW Code/build"
+Cache_GenFile[0][Path] Line0002 = "s/AguaClara Design Server.llb"
+Cache_GenFile[1][Path] Line0001 = "/C/Users/design/Documents/LabVIEW Code/build"
+Cache_GenFile[1][Path] Line0002 = "s/data/AguaClara Server.ico"
+Cache_GenGUID_Count[Integer] = 2
+Cache_GenGUID[0][String] = ""
+Cache_GenGUID[1][String] = "{02203C10-AF87-4831-A615-EE2552471FA0}"
+Cache_OutputDir[Path] Line0001 = "/C/Users/design/Documents/LabVIEW Code/builds"
+Cache_OutputDir[Path] Line0002 = "/AguaClara Design Server.llb"
+
+[AB_Cache_{C51F53FC-99A6-43E5-9C02-7D470E89F19E}]
+Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_TargetSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
+Cache_MyCompChksum[String] = "64dbabd314b3c6966994d509ed024681"
+Cache_GenFile_Count[Integer] = 2
+Cache_GenFile[0][Path] Line0001 = "/C/Users/design/Documents/LabVIEW Code/build"
+Cache_GenFile[0][Path] Line0002 = "s/AguaClara Design Server.llb"
+Cache_GenFile[1][Path] Line0001 = "/C/Users/design/Documents/LabVIEW Code/build"
+Cache_GenFile[1][Path] Line0002 = "s/data/AguaClara Server.ico"
+Cache_GenGUID_Count[Integer] = 2
+Cache_GenGUID[0][String] = ""
+Cache_GenGUID[1][String] = "{02203C10-AF87-4831-A615-EE2552471FA0}"
+Cache_OutputDir[Path] Line0001 = "/C/Users/design/Documents/LabVIEW Code/builds"
+Cache_OutputDir[Path] Line0002 = "/AguaClara Design Server.llb"
+

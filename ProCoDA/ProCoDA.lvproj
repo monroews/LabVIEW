@@ -95,7 +95,7 @@
 				<Item Name="eliminate 999.vi" Type="VI" URL="../Control code/HF turbidimeter/eliminate 999.vi"/>
 				<Item Name="HF turbidimeter (com1).vi" Type="VI" URL="../Control code/HF turbidimeter/HF turbidimeter (com1).vi"/>
 				<Item Name="HF turbidimeter (com2).vi" Type="VI" URL="../Control code/HF turbidimeter/HF turbidimeter (com2).vi"/>
-				<Item Name="HF turbidimeter (com3).vi" Type="VI" URL="../Control code/HF turbidimeter/HF turbidimeter (com3).vi"/>
+				<Item Name="HF modbus (com3).vi" Type="VI" URL="../Control code/HF turbidimeter/HF modbus (com3).vi"/>
 				<Item Name="HF turbidimeter (com4).vi" Type="VI" URL="../Control code/HF turbidimeter/HF turbidimeter (com4).vi"/>
 				<Item Name="HF turbidimeter (com5).vi" Type="VI" URL="../Control code/HF turbidimeter/HF turbidimeter (com5).vi"/>
 				<Item Name="HF turbidimeter (com6).vi" Type="VI" URL="../Control code/HF turbidimeter/HF turbidimeter (com6).vi"/>
@@ -469,6 +469,7 @@
 		<Item Name="location ini.vi" Type="VI" URL="../location ini.vi"/>
 		<Item Name="local barometric pressure.vi" Type="VI" URL="../calibration/Dissolved Oxygen/local barometric pressure.vi"/>
 		<Item Name="get local pressure from web.vi" Type="VI" URL="../calibration/Dissolved Oxygen/get local pressure from web.vi"/>
+		<Item Name="modbus.vi" Type="VI" URL="../modbus.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -874,7 +875,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
 				<Property Name="INST_productName" Type="Str">ProCoDA II</Property>
 				<Property Name="INST_productVersion" Type="Str">2.0.37</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">15008024</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cornell University</Property>
 				<Property Name="MSI_arpContact" Type="Str">Monroe Weber-Shirk</Property>
@@ -1212,7 +1213,7 @@
 				<Property Name="Source[8].type" Type="Str">File</Property>
 				<Property Name="Source[80].dest" Type="Str">{2A403DF6-C226-4998-A78D-894671D04AD9}</Property>
 				<Property Name="Source[80].name" Type="Str">HF turbidimeter (com3).vi</Property>
-				<Property Name="Source[80].tag" Type="Ref">/My Computer/Control code/HF turbidimeter/HF turbidimeter (com3).vi</Property>
+				<Property Name="Source[80].tag" Type="Ref">/My Computer/Control code/HF turbidimeter/HF modbus (com3).vi</Property>
 				<Property Name="Source[80].type" Type="Str">File</Property>
 				<Property Name="Source[81].dest" Type="Str">{2A403DF6-C226-4998-A78D-894671D04AD9}</Property>
 				<Property Name="Source[81].name" Type="Str">HF turbidimeter (com4).vi</Property>

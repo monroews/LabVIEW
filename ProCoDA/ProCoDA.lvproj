@@ -92,6 +92,7 @@
 				<Item Name="PID water height and temperature.vi" Type="VI" URL="../Control code/Feedback Control/PID water height and temperature.vi"/>
 			</Item>
 			<Item Name="HF turbidimeter" Type="Folder">
+				<Item Name="Modbus" Type="Folder"/>
 				<Item Name="eliminate 999.vi" Type="VI" URL="../Control code/HF turbidimeter/eliminate 999.vi"/>
 				<Item Name="HF turbidimeter (com1).vi" Type="VI" URL="../Control code/HF turbidimeter/HF turbidimeter (com1).vi"/>
 				<Item Name="HF turbidimeter (com2).vi" Type="VI" URL="../Control code/HF turbidimeter/HF turbidimeter (com2).vi"/>
@@ -99,6 +100,12 @@
 				<Item Name="HF turbidimeter (com4).vi" Type="VI" URL="../Control code/HF turbidimeter/HF turbidimeter (com4).vi"/>
 				<Item Name="HF turbidimeter (com5).vi" Type="VI" URL="../Control code/HF turbidimeter/HF turbidimeter (com5).vi"/>
 				<Item Name="HF turbidimeter (com6).vi" Type="VI" URL="../Control code/HF turbidimeter/HF turbidimeter (com6).vi"/>
+				<Item Name="HF modbus (com1).vi" Type="VI" URL="../Control code/HF turbidimeter/HF modbus (com1).vi"/>
+				<Item Name="HF modbus (com2).vi" Type="VI" URL="../Control code/HF turbidimeter/HF modbus (com2).vi"/>
+				<Item Name="HF modbus (com3).vi" Type="VI" URL="../Control code/HF turbidimeter/HF modbus (com3).vi"/>
+				<Item Name="HF modbus (com4).vi" Type="VI" URL="../Control code/HF turbidimeter/HF modbus (com4).vi"/>
+				<Item Name="HF modbus (com5).vi" Type="VI" URL="../Control code/HF turbidimeter/HF modbus (com5).vi"/>
+				<Item Name="HF modbus (com6).vi" Type="VI" URL="../Control code/HF turbidimeter/HF modbus (com6).vi"/>
 			</Item>
 			<Item Name="Math" Type="Folder">
 				<Item Name="add.vi" Type="VI" URL="../Control code/Math/add.vi"/>
@@ -469,6 +476,7 @@
 		<Item Name="location ini.vi" Type="VI" URL="../location ini.vi"/>
 		<Item Name="local barometric pressure.vi" Type="VI" URL="../calibration/Dissolved Oxygen/local barometric pressure.vi"/>
 		<Item Name="get local pressure from web.vi" Type="VI" URL="../calibration/Dissolved Oxygen/get local pressure from web.vi"/>
+		<Item Name="modbus.vi" Type="VI" URL="../modbus.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -640,8 +648,6 @@
 				<Item Name="DAQmx Create Channel (AI-Strain-Rosette Strain Gage).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Strain-Rosette Strain Gage).vi"/>
 				<Item Name="DAQmx Create Strain Rosette AI Channels (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Strain Rosette AI Channels (sub).vi"/>
 				<Item Name="DAQmx Create Channel (CI-Duty Cycle).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Duty Cycle).vi"/>
-				<Item Name="DAQmx Create Channel (CI-Velocity-Angular).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Velocity-Angular).vi"/>
-				<Item Name="DAQmx Create Channel (CI-Velocity-Linear).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Velocity-Linear).vi"/>
 				<Item Name="DAQmx Timing (Handshaking).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Handshaking).vi"/>
 				<Item Name="DAQmx Timing (Implicit).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Implicit).vi"/>
 				<Item Name="DAQmx Timing (Use Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Use Waveform).vi"/>
@@ -758,6 +764,11 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Read modbus.vi" Type="VI" URL="../Control code/HF turbidimeter/Modbus.llb/Read modbus.vi"/>
+			<Item Name="replace bad readings.vi" Type="VI" URL="../Control code/HF turbidimeter/Modbus.llb/replace bad readings.vi"/>
+			<Item Name="Command to write.vi" Type="VI" URL="../Control code/HF turbidimeter/Modbus.llb/Command to write.vi"/>
+			<Item Name="Open visa first call.vi" Type="VI" URL="../Control code/HF turbidimeter/Modbus.llb/Open visa first call.vi"/>
+			<Item Name="Parse modbus reply.vi" Type="VI" URL="../Control code/HF turbidimeter/Modbus.llb/Parse modbus reply.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="ProCoDA II" Type="EXE">
@@ -786,7 +797,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ProCoDA II/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ProCoDA.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{516F9A3C-28D5-4364-94DF-C5C82682C824}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4400660F-60ED-4DD2-89A2-E29D0EDC7C52}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ProCoDA.vi</Property>
@@ -875,7 +886,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">ProCoDA II (distributed)</Property>
 				<Property Name="INST_defaultDir" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
 				<Property Name="INST_productName" Type="Str">ProCoDA II</Property>
-				<Property Name="INST_productVersion" Type="Str">2.0.37</Property>
+				<Property Name="INST_productVersion" Type="Str">2.0.44</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">15008024</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cornell University</Property>
@@ -900,6 +911,18 @@
 				<Property Name="Source[10].name" Type="Str">Thermistor.smc</Property>
 				<Property Name="Source[10].tag" Type="Ref">/My Computer/Sensor Calibration/Thermistor.smc</Property>
 				<Property Name="Source[10].type" Type="Str">File</Property>
+				<Property Name="Source[100].dest" Type="Str">{2A403DF6-C226-4998-A78D-894671D04AD9}</Property>
+				<Property Name="Source[100].name" Type="Str">HF turbidimeter (com3).vi</Property>
+				<Property Name="Source[100].tag" Type="Ref">/My Computer/Control code/HF turbidimeter/HF turbidimeter (com3).vi</Property>
+				<Property Name="Source[100].type" Type="Str">File</Property>
+				<Property Name="Source[101].dest" Type="Str">{2A403DF6-C226-4998-A78D-894671D04AD9}</Property>
+				<Property Name="Source[101].name" Type="Str">HF modbus (com4).vi</Property>
+				<Property Name="Source[101].tag" Type="Ref">/My Computer/Control code/HF turbidimeter/HF modbus (com4).vi</Property>
+				<Property Name="Source[101].type" Type="Str">File</Property>
+				<Property Name="Source[102].dest" Type="Str">{2A403DF6-C226-4998-A78D-894671D04AD9}</Property>
+				<Property Name="Source[102].name" Type="Str">HF modbus (com5).vi</Property>
+				<Property Name="Source[102].tag" Type="Ref">/My Computer/Control code/HF turbidimeter/HF modbus (com5).vi</Property>
+				<Property Name="Source[102].type" Type="Str">File</Property>
 				<Property Name="Source[11].dest" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
 				<Property Name="Source[11].File[0].dest" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
 				<Property Name="Source[11].File[0].name" Type="Str">ProCoDA II.exe</Property>
@@ -1213,8 +1236,8 @@
 				<Property Name="Source[8].tag" Type="Ref">/My Computer/Sensor Calibration/7 kPa/Pa.smc</Property>
 				<Property Name="Source[8].type" Type="Str">File</Property>
 				<Property Name="Source[80].dest" Type="Str">{2A403DF6-C226-4998-A78D-894671D04AD9}</Property>
-				<Property Name="Source[80].name" Type="Str">HF turbidimeter (com3).vi</Property>
-				<Property Name="Source[80].tag" Type="Ref">/My Computer/Control code/HF turbidimeter/HF turbidimeter (com3).vi</Property>
+				<Property Name="Source[80].name" Type="Str">HF modbus (com3).vi</Property>
+				<Property Name="Source[80].tag" Type="Ref">/My Computer/Control code/HF turbidimeter/HF modbus (com3).vi</Property>
 				<Property Name="Source[80].type" Type="Str">File</Property>
 				<Property Name="Source[81].dest" Type="Str">{2A403DF6-C226-4998-A78D-894671D04AD9}</Property>
 				<Property Name="Source[81].name" Type="Str">HF turbidimeter (com4).vi</Property>
@@ -1308,7 +1331,19 @@
 				<Property Name="Source[96].name" Type="Str">PID water height and temperature.vi</Property>
 				<Property Name="Source[96].tag" Type="Ref">/My Computer/Control code/Feedback Control/PID water height and temperature.vi</Property>
 				<Property Name="Source[96].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">97</Property>
+				<Property Name="Source[97].dest" Type="Str">{2A403DF6-C226-4998-A78D-894671D04AD9}</Property>
+				<Property Name="Source[97].name" Type="Str">HF modbus (com1).vi</Property>
+				<Property Name="Source[97].tag" Type="Ref">/My Computer/Control code/HF turbidimeter/HF modbus (com1).vi</Property>
+				<Property Name="Source[97].type" Type="Str">File</Property>
+				<Property Name="Source[98].dest" Type="Str">{2A403DF6-C226-4998-A78D-894671D04AD9}</Property>
+				<Property Name="Source[98].name" Type="Str">HF modbus (com2).vi</Property>
+				<Property Name="Source[98].tag" Type="Ref">/My Computer/Control code/HF turbidimeter/HF modbus (com2).vi</Property>
+				<Property Name="Source[98].type" Type="Str">File</Property>
+				<Property Name="Source[99].dest" Type="Str">{2A403DF6-C226-4998-A78D-894671D04AD9}</Property>
+				<Property Name="Source[99].name" Type="Str">HF modbus (com6).vi</Property>
+				<Property Name="Source[99].tag" Type="Ref">/My Computer/Control code/HF turbidimeter/HF modbus (com6).vi</Property>
+				<Property Name="Source[99].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">103</Property>
 			</Item>
 		</Item>
 	</Item>

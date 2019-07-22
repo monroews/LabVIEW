@@ -91,35 +91,12 @@
 				<Item Name="Water Temp-Depth Control-temp target.vi" Type="VI" URL="../Control code/Feedback Control/Water Temp-Depth Control-temp target.vi"/>
 				<Item Name="PID water height and temperature.vi" Type="VI" URL="../Control code/Feedback Control/PID water height and temperature.vi"/>
 			</Item>
+			<Item Name="Golander pumps" Type="Folder">
+				<Item Name="Golander pump(mL per s, mL per rev).vi" Type="VI" URL="../Control code/Golander pumps/Golander pump(mL per s, mL per rev).vi"/>
+				<Item Name="Golander pump example.vi" Type="VI" URL="../Control code/Golander pumps/Golander pump example.vi"/>
+			</Item>
 			<Item Name="HF turbidimeter" Type="Folder">
-				<Item Name="modbusrtu" Type="Folder">
-					<Item Name="MB CRC-16.vi" Type="VI" URL="../Control code/HF turbidimeter/modbusrtu.llb/MB CRC-16.vi"/>
-					<Item Name="MB Decode Data.vi" Type="VI" URL="../Control code/HF turbidimeter/modbusrtu.llb/MB Decode Data.vi"/>
-					<Item Name="MB LRC-8.vi" Type="VI" URL="../Control code/HF turbidimeter/modbusrtu.llb/MB LRC-8.vi"/>
-					<Item Name="MB Modbus Command to Data Unit.vi" Type="VI" URL="../Control code/HF turbidimeter/modbusrtu.llb/MB Modbus Command to Data Unit.vi"/>
-					<Item Name="MB Modbus Command.ctl" Type="VI" URL="../Control code/HF turbidimeter/modbusrtu.llb/MB Modbus Command.ctl"/>
-					<Item Name="MB Modbus Data Unit.ctl" Type="VI" URL="../Control code/HF turbidimeter/modbusrtu.llb/MB Modbus Data Unit.ctl"/>
-					<Item Name="MB Serial Master Query Read Input Registers (poly).vi" Type="VI" URL="../Control code/HF turbidimeter/modbusrtu.llb/MB Serial Master Query Read Input Registers (poly).vi"/>
-					<Item Name="MB Serial Master Query.vi" Type="VI" URL="../Control code/HF turbidimeter/modbusrtu.llb/MB Serial Master Query.vi"/>
-					<Item Name="MB Serial Modbus Data Unit to String.vi" Type="VI" URL="../Control code/HF turbidimeter/modbusrtu.llb/MB Serial Modbus Data Unit to String.vi"/>
-					<Item Name="MB Serial Receive.vi" Type="VI" URL="../Control code/HF turbidimeter/modbusrtu.llb/MB Serial Receive.vi"/>
-					<Item Name="MB Serial String to Modbus Data Unit.vi" Type="VI" URL="../Control code/HF turbidimeter/modbusrtu.llb/MB Serial String to Modbus Data Unit.vi"/>
-					<Item Name="MB Serial Transmit.vi" Type="VI" URL="../Control code/HF turbidimeter/modbusrtu.llb/MB Serial Transmit.vi"/>
-				</Item>
-				<Item Name="Modbus" Type="Folder"/>
 				<Item Name="eliminate 999.vi" Type="VI" URL="../Control code/HF turbidimeter/eliminate 999.vi"/>
-				<Item Name="HF turbidimeter (com1).vi" Type="VI" URL="../Control code/HF turbidimeter/HF turbidimeter (com1).vi"/>
-				<Item Name="HF turbidimeter (com2).vi" Type="VI" URL="../Control code/HF turbidimeter/HF turbidimeter (com2).vi"/>
-				<Item Name="HF turbidimeter (com3).vi" Type="VI" URL="../Control code/HF turbidimeter/HF turbidimeter (com3).vi"/>
-				<Item Name="HF turbidimeter (com4).vi" Type="VI" URL="../Control code/HF turbidimeter/HF turbidimeter (com4).vi"/>
-				<Item Name="HF turbidimeter (com5).vi" Type="VI" URL="../Control code/HF turbidimeter/HF turbidimeter (com5).vi"/>
-				<Item Name="HF turbidimeter (com6).vi" Type="VI" URL="../Control code/HF turbidimeter/HF turbidimeter (com6).vi"/>
-				<Item Name="HF modbus (com1).vi" Type="VI" URL="../Control code/HF turbidimeter/HF modbus (com1).vi"/>
-				<Item Name="HF modbus (com2).vi" Type="VI" URL="../Control code/HF turbidimeter/HF modbus (com2).vi"/>
-				<Item Name="HF modbus (com3).vi" Type="VI" URL="../Control code/HF turbidimeter/HF modbus (com3).vi"/>
-				<Item Name="HF modbus (com4).vi" Type="VI" URL="../Control code/HF turbidimeter/HF modbus (com4).vi"/>
-				<Item Name="HF modbus (com5).vi" Type="VI" URL="../Control code/HF turbidimeter/HF modbus (com5).vi"/>
-				<Item Name="HF modbus (com6).vi" Type="VI" URL="../Control code/HF turbidimeter/HF modbus (com6).vi"/>
 				<Item Name="HF modbus rtu.vi" Type="VI" URL="../Control code/HF turbidimeter/HF modbus rtu.vi"/>
 			</Item>
 			<Item Name="Math" Type="Folder">
@@ -166,6 +143,9 @@
 				<Item Name="Ohaus Scout Pro (com5).vi" Type="VI" URL="../Control code/Ohaus balances/Ohaus Scout Pro (com5).vi"/>
 				<Item Name="Ohaus Scout Pro (com6).vi" Type="VI" URL="../Control code/Ohaus balances/Ohaus Scout Pro (com6).vi"/>
 				<Item Name="Ohaus Scout Pro (com7).vi" Type="VI" URL="../Control code/Ohaus balances/Ohaus Scout Pro (com7).vi"/>
+			</Item>
+			<Item Name="modbusrtu" Type="Folder" URL="../Control code/modbusrtu">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 			<Item Name="control code.vit" Type="VI" URL="../Control code/control code.vit"/>
 		</Item>
@@ -492,6 +472,7 @@
 		<Item Name="local barometric pressure.vi" Type="VI" URL="../calibration/Dissolved Oxygen/local barometric pressure.vi"/>
 		<Item Name="get local pressure from web.vi" Type="VI" URL="../calibration/Dissolved Oxygen/get local pressure from web.vi"/>
 		<Item Name="modbus.vi" Type="VI" URL="../modbus.vi"/>
+		<Item Name="test pump.vi" Type="VI" URL="../Control code/Golander pumps/test pump.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -769,6 +750,7 @@
 				<Item Name="DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Write (Counter 1D Time 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Time 1Chan NSamp).vi"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Write to xls File.vi" Type="VI" URL="../file/Write to xls File.vi"/>
@@ -780,11 +762,6 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Read modbus.vi" Type="VI" URL="../Control code/HF turbidimeter/Modbus.llb/Read modbus.vi"/>
-			<Item Name="replace bad readings.vi" Type="VI" URL="../Control code/HF turbidimeter/Modbus.llb/replace bad readings.vi"/>
-			<Item Name="Command to write.vi" Type="VI" URL="../Control code/HF turbidimeter/Modbus.llb/Command to write.vi"/>
-			<Item Name="Open visa first call.vi" Type="VI" URL="../Control code/HF turbidimeter/Modbus.llb/Open visa first call.vi"/>
-			<Item Name="Parse modbus reply.vi" Type="VI" URL="../Control code/HF turbidimeter/Modbus.llb/Parse modbus reply.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="ProCoDA II" Type="EXE">
@@ -907,8 +884,8 @@ show save note always
 				<Property Name="INST_defaultDir" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
 				<Property Name="INST_productName" Type="Str">ProCoDA II</Property>
 				<Property Name="INST_productVersion" Type="Str">2.0.50</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">15008029</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">15008030</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cornell University</Property>
 				<Property Name="MSI_arpContact" Type="Str">Monroe Weber-Shirk</Property>
 				<Property Name="MSI_distID" Type="Str">{8768BD9C-1205-4090-B082-5AAC49AEDEA5}</Property>

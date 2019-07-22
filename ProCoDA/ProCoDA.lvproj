@@ -91,14 +91,6 @@
 				<Item Name="Water Temp-Depth Control-temp target.vi" Type="VI" URL="../Control code/Feedback Control/Water Temp-Depth Control-temp target.vi"/>
 				<Item Name="PID water height and temperature.vi" Type="VI" URL="../Control code/Feedback Control/PID water height and temperature.vi"/>
 			</Item>
-			<Item Name="Golander pumps" Type="Folder">
-				<Item Name="Golander pump(mL per s, mL per rev).vi" Type="VI" URL="../Control code/Golander pumps/Golander pump(mL per s, mL per rev).vi"/>
-				<Item Name="Golander pump example.vi" Type="VI" URL="../Control code/Golander pumps/Golander pump example.vi"/>
-			</Item>
-			<Item Name="HF turbidimeter" Type="Folder">
-				<Item Name="eliminate 999.vi" Type="VI" URL="../Control code/HF turbidimeter/eliminate 999.vi"/>
-				<Item Name="HF modbus rtu.vi" Type="VI" URL="../Control code/HF turbidimeter/HF modbus rtu.vi"/>
-			</Item>
 			<Item Name="Math" Type="Folder">
 				<Item Name="add.vi" Type="VI" URL="../Control code/Math/add.vi"/>
 				<Item Name="convert sensor to setpoint.vi" Type="VI" URL="../Control code/Math/convert sensor to setpoint.vi"/>
@@ -145,6 +137,9 @@
 				<Item Name="Ohaus Scout Pro (com7).vi" Type="VI" URL="../Control code/Ohaus balances/Ohaus Scout Pro (com7).vi"/>
 			</Item>
 			<Item Name="modbusrtu" Type="Folder" URL="../Control code/modbusrtu">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Modbus devices" Type="Folder" URL="../Control code/Modbus devices">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 			<Item Name="control code.vit" Type="VI" URL="../Control code/control code.vit"/>
@@ -472,7 +467,6 @@
 		<Item Name="local barometric pressure.vi" Type="VI" URL="../calibration/Dissolved Oxygen/local barometric pressure.vi"/>
 		<Item Name="get local pressure from web.vi" Type="VI" URL="../calibration/Dissolved Oxygen/get local pressure from web.vi"/>
 		<Item Name="modbus.vi" Type="VI" URL="../modbus.vi"/>
-		<Item Name="test pump.vi" Type="VI" URL="../Control code/Golander pumps/test pump.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -750,6 +744,8 @@
 				<Item Name="DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Write (Counter 1D Time 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Time 1Chan NSamp).vi"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
+				<Item Name="MB Master.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plasmionique/MB Master/MB Master.lvlib"/>
+				<Item Name="MB_VISA_Lock.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plasmionique/MB Master/MB_VISA_Lock/MB_VISA_Lock.lvlib"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
@@ -1258,7 +1254,7 @@ show save note always
 				<Property Name="Source[88].type" Type="Str">File</Property>
 				<Property Name="Source[89].dest" Type="Str">{2A403DF6-C226-4998-A78D-894671D04AD9}</Property>
 				<Property Name="Source[89].name" Type="Str">HF modbus rtu.vi</Property>
-				<Property Name="Source[89].tag" Type="Ref">/My Computer/Control code/HF turbidimeter/HF modbus rtu.vi</Property>
+				<Property Name="Source[89].tag" Type="Ref"></Property>
 				<Property Name="Source[89].type" Type="Str">File</Property>
 				<Property Name="Source[9].dest" Type="Str">{7F0FF898-4595-4183-9ADF-FC446CB9857F}</Property>
 				<Property Name="Source[9].name" Type="Str">PX136-015GV kPa.smc</Property>

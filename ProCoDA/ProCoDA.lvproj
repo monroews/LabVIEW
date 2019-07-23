@@ -91,14 +91,6 @@
 				<Item Name="Water Temp-Depth Control-temp target.vi" Type="VI" URL="../Control code/Feedback Control/Water Temp-Depth Control-temp target.vi"/>
 				<Item Name="PID water height and temperature.vi" Type="VI" URL="../Control code/Feedback Control/PID water height and temperature.vi"/>
 			</Item>
-			<Item Name="Golander pumps" Type="Folder">
-				<Item Name="Golander pump(mL per s, mL per rev).vi" Type="VI" URL="../Control code/Golander pumps/Golander pump(mL per s, mL per rev).vi"/>
-				<Item Name="Golander pump example.vi" Type="VI" URL="../Control code/Golander pumps/Golander pump example.vi"/>
-			</Item>
-			<Item Name="HF turbidimeter" Type="Folder">
-				<Item Name="eliminate 999.vi" Type="VI" URL="../Control code/HF turbidimeter/eliminate 999.vi"/>
-				<Item Name="HF modbus rtu.vi" Type="VI" URL="../Control code/HF turbidimeter/HF modbus rtu.vi"/>
-			</Item>
 			<Item Name="Math" Type="Folder">
 				<Item Name="add.vi" Type="VI" URL="../Control code/Math/add.vi"/>
 				<Item Name="convert sensor to setpoint.vi" Type="VI" URL="../Control code/Math/convert sensor to setpoint.vi"/>
@@ -145,6 +137,9 @@
 				<Item Name="Ohaus Scout Pro (com7).vi" Type="VI" URL="../Control code/Ohaus balances/Ohaus Scout Pro (com7).vi"/>
 			</Item>
 			<Item Name="modbusrtu" Type="Folder" URL="../Control code/modbusrtu">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Modbus devices" Type="Folder" URL="../Control code/Modbus devices">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 			<Item Name="control code.vit" Type="VI" URL="../Control code/control code.vit"/>
@@ -472,7 +467,6 @@
 		<Item Name="local barometric pressure.vi" Type="VI" URL="../calibration/Dissolved Oxygen/local barometric pressure.vi"/>
 		<Item Name="get local pressure from web.vi" Type="VI" URL="../calibration/Dissolved Oxygen/get local pressure from web.vi"/>
 		<Item Name="modbus.vi" Type="VI" URL="../modbus.vi"/>
-		<Item Name="test pump.vi" Type="VI" URL="../Control code/Golander pumps/test pump.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -750,6 +744,8 @@
 				<Item Name="DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Write (Counter 1D Time 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Time 1Chan NSamp).vi"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
+				<Item Name="MB Master.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plasmionique/MB Master/MB Master.lvlib"/>
+				<Item Name="MB_VISA_Lock.lvlib" Type="Library" URL="/&lt;vilib&gt;/Plasmionique/MB Master/MB_VISA_Lock/MB_VISA_Lock.lvlib"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
@@ -793,7 +789,7 @@ show save note always
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ProCoDA II/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ProCoDA.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{53A771A1-78AF-4E6D-A14A-FF41061CD807}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1A2C4094-6ACE-463F-879B-4CABA370740C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ProCoDA.vi</Property>
@@ -819,29 +815,29 @@ show save note always
 				<Property Name="Destination[1].parent" Type="Str">{115F5F59-DED6-42E2-8467-4CD042208C47}</Property>
 				<Property Name="Destination[1].tag" Type="Str">{377DF5B9-EDB5-4B88-9A11-6B2B9831972E}</Property>
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[10].name" Type="Str">peristaltic</Property>
-				<Property Name="Destination[10].parent" Type="Str">{2E98A6F4-631F-41BE-944D-347BEA92EE75}</Property>
-				<Property Name="Destination[10].tag" Type="Str">{EA931DE0-0B3E-4C00-B5B8-4B1913E1C0AF}</Property>
+				<Property Name="Destination[10].name" Type="Str">Sensors</Property>
+				<Property Name="Destination[10].parent" Type="Str">{377DF5B9-EDB5-4B88-9A11-6B2B9831972E}</Property>
+				<Property Name="Destination[10].tag" Type="Str">{7F0FF898-4595-4183-9ADF-FC446CB9857F}</Property>
 				<Property Name="Destination[10].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[11].name" Type="Str">Sensors</Property>
-				<Property Name="Destination[11].parent" Type="Str">{377DF5B9-EDB5-4B88-9A11-6B2B9831972E}</Property>
-				<Property Name="Destination[11].tag" Type="Str">{7F0FF898-4595-4183-9ADF-FC446CB9857F}</Property>
+				<Property Name="Destination[11].name" Type="Str">100 kPa</Property>
+				<Property Name="Destination[11].parent" Type="Str">{7F0FF898-4595-4183-9ADF-FC446CB9857F}</Property>
+				<Property Name="Destination[11].tag" Type="Str">{230F270B-935C-4970-A2DF-C41E45D8338E}</Property>
 				<Property Name="Destination[11].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[12].name" Type="Str">100 kPa</Property>
+				<Property Name="Destination[12].name" Type="Str">200 kPa</Property>
 				<Property Name="Destination[12].parent" Type="Str">{7F0FF898-4595-4183-9ADF-FC446CB9857F}</Property>
-				<Property Name="Destination[12].tag" Type="Str">{230F270B-935C-4970-A2DF-C41E45D8338E}</Property>
+				<Property Name="Destination[12].tag" Type="Str">{83C7D83D-133D-4224-8060-681410D5C082}</Property>
 				<Property Name="Destination[12].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[13].name" Type="Str">200 kPa</Property>
+				<Property Name="Destination[13].name" Type="Str">7 kPa</Property>
 				<Property Name="Destination[13].parent" Type="Str">{7F0FF898-4595-4183-9ADF-FC446CB9857F}</Property>
-				<Property Name="Destination[13].tag" Type="Str">{83C7D83D-133D-4224-8060-681410D5C082}</Property>
+				<Property Name="Destination[13].tag" Type="Str">{4F273920-2A5C-4135-9A94-6C941B862C00}</Property>
 				<Property Name="Destination[13].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[14].name" Type="Str">7 kPa</Property>
-				<Property Name="Destination[14].parent" Type="Str">{7F0FF898-4595-4183-9ADF-FC446CB9857F}</Property>
-				<Property Name="Destination[14].tag" Type="Str">{4F273920-2A5C-4135-9A94-6C941B862C00}</Property>
+				<Property Name="Destination[14].name" Type="Str">Ohaus balances</Property>
+				<Property Name="Destination[14].parent" Type="Str">{2E98A6F4-631F-41BE-944D-347BEA92EE75}</Property>
+				<Property Name="Destination[14].tag" Type="Str">{07848B36-32CC-4B91-A626-FE88DA83B632}</Property>
 				<Property Name="Destination[14].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[15].name" Type="Str">Ohaus balances</Property>
+				<Property Name="Destination[15].name" Type="Str">Modbus devices</Property>
 				<Property Name="Destination[15].parent" Type="Str">{2E98A6F4-631F-41BE-944D-347BEA92EE75}</Property>
-				<Property Name="Destination[15].tag" Type="Str">{07848B36-32CC-4B91-A626-FE88DA83B632}</Property>
+				<Property Name="Destination[15].tag" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>
 				<Property Name="Destination[15].type" Type="Str">userFolder</Property>
 				<Property Name="Destination[2].name" Type="Str">Functions</Property>
 				<Property Name="Destination[2].parent" Type="Str">{377DF5B9-EDB5-4B88-9A11-6B2B9831972E}</Property>
@@ -867,13 +863,13 @@ show save note always
 				<Property Name="Destination[7].parent" Type="Str">{FB3BE711-E008-4EAF-9419-F2341535A84B}</Property>
 				<Property Name="Destination[7].tag" Type="Str">{AF18F639-7D8C-47A1-B195-D2785B54BB30}</Property>
 				<Property Name="Destination[7].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[8].name" Type="Str">HF turbidimeter</Property>
+				<Property Name="Destination[8].name" Type="Str">math</Property>
 				<Property Name="Destination[8].parent" Type="Str">{2E98A6F4-631F-41BE-944D-347BEA92EE75}</Property>
-				<Property Name="Destination[8].tag" Type="Str">{2A403DF6-C226-4998-A78D-894671D04AD9}</Property>
+				<Property Name="Destination[8].tag" Type="Str">{7535295A-B033-4002-9D9F-2A99C89B7855}</Property>
 				<Property Name="Destination[8].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[9].name" Type="Str">math</Property>
+				<Property Name="Destination[9].name" Type="Str">peristaltic</Property>
 				<Property Name="Destination[9].parent" Type="Str">{2E98A6F4-631F-41BE-944D-347BEA92EE75}</Property>
-				<Property Name="Destination[9].tag" Type="Str">{7535295A-B033-4002-9D9F-2A99C89B7855}</Property>
+				<Property Name="Destination[9].tag" Type="Str">{EA931DE0-0B3E-4C00-B5B8-4B1913E1C0AF}</Property>
 				<Property Name="Destination[9].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">16</Property>
 				<Property Name="INST_author" Type="Str">Cornell University</Property>
@@ -883,7 +879,7 @@ show save note always
 				<Property Name="INST_buildSpecName" Type="Str">ProCoDA II (distributed)</Property>
 				<Property Name="INST_defaultDir" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
 				<Property Name="INST_productName" Type="Str">ProCoDA II</Property>
-				<Property Name="INST_productVersion" Type="Str">2.0.50</Property>
+				<Property Name="INST_productVersion" Type="Str">2.0.54</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">15008030</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cornell University</Property>
@@ -1256,22 +1252,23 @@ show save note always
 				<Property Name="Source[88].name" Type="Str">PID water height and temperature.vi</Property>
 				<Property Name="Source[88].tag" Type="Ref">/My Computer/Control code/Feedback Control/PID water height and temperature.vi</Property>
 				<Property Name="Source[88].type" Type="Str">File</Property>
-				<Property Name="Source[89].dest" Type="Str">{2A403DF6-C226-4998-A78D-894671D04AD9}</Property>
-				<Property Name="Source[89].name" Type="Str">HF modbus rtu.vi</Property>
-				<Property Name="Source[89].tag" Type="Ref">/My Computer/Control code/HF turbidimeter/HF modbus rtu.vi</Property>
+				<Property Name="Source[89].dest" Type="Str">{633A579A-7CA8-48FB-950A-C7165676DBE1}</Property>
+				<Property Name="Source[89].name" Type="Str">air flow valve controller (source sensor).vi</Property>
+				<Property Name="Source[89].tag" Type="Ref">/My Computer/Control code/airflow/air flow valve controller (source sensor).vi</Property>
 				<Property Name="Source[89].type" Type="Str">File</Property>
 				<Property Name="Source[9].dest" Type="Str">{7F0FF898-4595-4183-9ADF-FC446CB9857F}</Property>
 				<Property Name="Source[9].name" Type="Str">PX136-015GV kPa.smc</Property>
 				<Property Name="Source[9].tag" Type="Ref">/My Computer/Sensor Calibration/PX136-015GV kPa.smc</Property>
 				<Property Name="Source[9].type" Type="Str">File</Property>
 				<Property Name="Source[90].dest" Type="Str">{633A579A-7CA8-48FB-950A-C7165676DBE1}</Property>
-				<Property Name="Source[90].name" Type="Str">air flow valve controller (source sensor).vi</Property>
-				<Property Name="Source[90].tag" Type="Ref">/My Computer/Control code/airflow/air flow valve controller (source sensor).vi</Property>
+				<Property Name="Source[90].name" Type="Str">air flow calibrator (source sensor).vi</Property>
+				<Property Name="Source[90].tag" Type="Ref">/My Computer/Control code/airflow/air flow calibrator (source sensor).vi</Property>
 				<Property Name="Source[90].type" Type="Str">File</Property>
-				<Property Name="Source[91].dest" Type="Str">{633A579A-7CA8-48FB-950A-C7165676DBE1}</Property>
-				<Property Name="Source[91].name" Type="Str">air flow calibrator (source sensor).vi</Property>
-				<Property Name="Source[91].tag" Type="Ref">/My Computer/Control code/airflow/air flow calibrator (source sensor).vi</Property>
+				<Property Name="Source[91].dest" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>
+				<Property Name="Source[91].name" Type="Str">ChemTrac HydroACT.vi</Property>
+				<Property Name="Source[91].tag" Type="Ref">/My Computer/Control code/Modbus devices/ChemTrac HydroACT.vi</Property>
 				<Property Name="Source[91].type" Type="Str">File</Property>
+				<Property Name="Source[92].dest" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>
 				<Property Name="Source[92].File[0].dest" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
 				<Property Name="Source[92].File[0].name" Type="Str">ProCoDA II.exe</Property>
 				<Property Name="Source[92].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
@@ -1280,6 +1277,10 @@ show save note always
 				<Property Name="Source[92].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[92].File[0].tag" Type="Str">{FF4212DB-C897-42FC-AAB4-A52991080F8B}</Property>
 				<Property Name="Source[92].FileCount" Type="Int">1</Property>
+				<Property Name="Source[92].name" Type="Str">Golander pump(mL per s, mL per rev).vi</Property>
+				<Property Name="Source[92].tag" Type="Ref">/My Computer/Control code/Modbus devices/Golander pump(mL per s, mL per rev).vi</Property>
+				<Property Name="Source[92].type" Type="Str">File</Property>
+				<Property Name="Source[93].dest" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>
 				<Property Name="Source[93].File[0].dest" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
 				<Property Name="Source[93].File[0].name" Type="Str">ProCoDA II.exe</Property>
 				<Property Name="Source[93].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
@@ -1288,6 +1289,9 @@ show save note always
 				<Property Name="Source[93].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[93].File[0].tag" Type="Str">{FF4212DB-C897-42FC-AAB4-A52991080F8B}</Property>
 				<Property Name="Source[93].FileCount" Type="Int">1</Property>
+				<Property Name="Source[93].name" Type="Str">HF turbidimeter.vi</Property>
+				<Property Name="Source[93].tag" Type="Ref">/My Computer/Control code/Modbus devices/HF turbidimeter.vi</Property>
+				<Property Name="Source[93].type" Type="Str">File</Property>
 				<Property Name="Source[94].File[0].dest" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
 				<Property Name="Source[94].File[0].name" Type="Str">ProCoDA II.exe</Property>
 				<Property Name="Source[94].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
@@ -1296,7 +1300,7 @@ show save note always
 				<Property Name="Source[94].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[94].File[0].tag" Type="Str">{FF4212DB-C897-42FC-AAB4-A52991080F8B}</Property>
 				<Property Name="Source[94].FileCount" Type="Int">1</Property>
-				<Property Name="SourceCount" Type="Int">92</Property>
+				<Property Name="SourceCount" Type="Int">94</Property>
 			</Item>
 		</Item>
 	</Item>

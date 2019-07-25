@@ -789,7 +789,7 @@ show save note always
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ProCoDA II/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ProCoDA.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B1D9E7A9-E4EE-4A46-AAE6-E6B086E3CAE7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{459E6135-2036-4FD4-98E9-144770EB4BA6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ProCoDA.vi</Property>
@@ -879,7 +879,7 @@ show save note always
 				<Property Name="INST_buildSpecName" Type="Str">ProCoDA II (distributed)</Property>
 				<Property Name="INST_defaultDir" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
 				<Property Name="INST_productName" Type="Str">ProCoDA II</Property>
-				<Property Name="INST_productVersion" Type="Str">2.0.58</Property>
+				<Property Name="INST_productVersion" Type="Str">2.0.59</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">15008030</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cornell University</Property>

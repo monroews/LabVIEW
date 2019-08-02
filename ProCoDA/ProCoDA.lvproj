@@ -767,9 +767,7 @@
 				<Property Name="App_INI_itemID" Type="Ref">/My Computer/ProCoDA II.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{11F56B09-B9CA-4FBF-84BE-8307C29CFF69}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">reads max of data available and user request
-multiplot graph
-show save note always
+				<Property Name="Bld_buildSpecDescription" Type="Str">data files are now .tsv
 </Property>
 				<Property Name="Bld_buildSpecName" Type="Str">ProCoDA II</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -789,7 +787,7 @@ show save note always
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ProCoDA II/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ProCoDA.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{77D064B9-7D05-4630-B275-5DA9DA4CEC65}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BEF7F0CD-D2F7-47CC-A47A-1EED108DFD60}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ProCoDA.vi</Property>
@@ -879,7 +877,7 @@ show save note always
 				<Property Name="INST_buildSpecName" Type="Str">ProCoDA II (distributed)</Property>
 				<Property Name="INST_defaultDir" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
 				<Property Name="INST_productName" Type="Str">ProCoDA II</Property>
-				<Property Name="INST_productVersion" Type="Str">2.0.62</Property>
+				<Property Name="INST_productVersion" Type="Str">2.0.63</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">15008030</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cornell University</Property>

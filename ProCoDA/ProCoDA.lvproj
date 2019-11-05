@@ -769,7 +769,7 @@
 				<Property Name="App_INI_itemID" Type="Ref">/My Computer/ProCoDA II.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{11F56B09-B9CA-4FBF-84BE-8307C29CFF69}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">2019</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">change data file names to eliminate space</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">ProCoDA II</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -788,7 +788,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ProCoDA II/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ProCoDA.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BFDA827A-1310-46B4-9137-073958CD5F75}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C3467341-0870-4C07-BD72-33F9143848BD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ProCoDA.vi</Property>
@@ -879,7 +879,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">ProCoDA II</Property>
-				<Property Name="INST_productVersion" Type="Str">2.0.90</Property>
+				<Property Name="INST_productVersion" Type="Str">2.0.91</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cornell University</Property>

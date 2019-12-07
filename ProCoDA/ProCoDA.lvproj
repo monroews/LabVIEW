@@ -788,7 +788,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ProCoDA II/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ProCoDA.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{63D5CAF7-DCF3-40AB-9384-27CDD232BAF6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7075D04E-997B-44BA-95C8-D22B12438FBE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ProCoDA.vi</Property>
@@ -879,7 +879,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">ProCoDA II</Property>
-				<Property Name="INST_productVersion" Type="Str">2.0.92</Property>
+				<Property Name="INST_productVersion" Type="Str">2.0.93</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cornell University</Property>
@@ -1265,8 +1265,8 @@
 				<Property Name="Source[90].tag" Type="Ref">/My Computer/Control code/airflow/air flow calibrator (source sensor).vi</Property>
 				<Property Name="Source[90].type" Type="Str">File</Property>
 				<Property Name="Source[91].dest" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>
-				<Property Name="Source[91].name" Type="Str">ChemTrac HydroACT.vi</Property>
-				<Property Name="Source[91].tag" Type="Ref">/My Computer/Control code/Modbus devices/ChemTrac HydroACT.vi</Property>
+				<Property Name="Source[91].name" Type="Str">Golander pump(mL per s, mL per rev).vi</Property>
+				<Property Name="Source[91].tag" Type="Ref">/My Computer/Control code/Modbus devices/Golander pump(mL per s, mL per rev).vi</Property>
 				<Property Name="Source[91].type" Type="Str">File</Property>
 				<Property Name="Source[92].dest" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>
 				<Property Name="Source[92].File[0].dest" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
@@ -1277,8 +1277,8 @@
 				<Property Name="Source[92].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[92].File[0].tag" Type="Str">{FF4212DB-C897-42FC-AAB4-A52991080F8B}</Property>
 				<Property Name="Source[92].FileCount" Type="Int">1</Property>
-				<Property Name="Source[92].name" Type="Str">Golander pump(mL per s, mL per rev).vi</Property>
-				<Property Name="Source[92].tag" Type="Ref">/My Computer/Control code/Modbus devices/Golander pump(mL per s, mL per rev).vi</Property>
+				<Property Name="Source[92].name" Type="Str">HF turbidimeter.vi</Property>
+				<Property Name="Source[92].tag" Type="Ref">/My Computer/Control code/Modbus devices/HF turbidimeter.vi</Property>
 				<Property Name="Source[92].type" Type="Str">File</Property>
 				<Property Name="Source[93].dest" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>
 				<Property Name="Source[93].File[0].dest" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
@@ -1289,8 +1289,8 @@
 				<Property Name="Source[93].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[93].File[0].tag" Type="Str">{FF4212DB-C897-42FC-AAB4-A52991080F8B}</Property>
 				<Property Name="Source[93].FileCount" Type="Int">1</Property>
-				<Property Name="Source[93].name" Type="Str">HF turbidimeter.vi</Property>
-				<Property Name="Source[93].tag" Type="Ref">/My Computer/Control code/Modbus devices/HF turbidimeter.vi</Property>
+				<Property Name="Source[93].name" Type="Str">Golander pump 2 flows(mL per s, mL per rev).vi</Property>
+				<Property Name="Source[93].tag" Type="Ref">/My Computer/Control code/Modbus devices/Golander pump 2 flows(mL per s, mL per rev).vi</Property>
 				<Property Name="Source[93].type" Type="Str">File</Property>
 				<Property Name="Source[94].dest" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>
 				<Property Name="Source[94].File[0].dest" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
@@ -1301,10 +1301,14 @@
 				<Property Name="Source[94].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[94].File[0].tag" Type="Str">{FF4212DB-C897-42FC-AAB4-A52991080F8B}</Property>
 				<Property Name="Source[94].FileCount" Type="Int">1</Property>
-				<Property Name="Source[94].name" Type="Str">Golander pump 2 flows(mL per s, mL per rev).vi</Property>
-				<Property Name="Source[94].tag" Type="Ref">/My Computer/Control code/Modbus devices/Golander pump 2 flows(mL per s, mL per rev).vi</Property>
+				<Property Name="Source[94].name" Type="Str">ChemTrac read all.vi</Property>
+				<Property Name="Source[94].tag" Type="Ref">/My Computer/Control code/Modbus devices/ChemTrac read all.vi</Property>
 				<Property Name="Source[94].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">95</Property>
+				<Property Name="Source[95].dest" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>
+				<Property Name="Source[95].name" Type="Str">ChemTrac.vi</Property>
+				<Property Name="Source[95].tag" Type="Ref">/My Computer/Control code/Modbus devices/ChemTrac.vi</Property>
+				<Property Name="Source[95].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">96</Property>
 			</Item>
 		</Item>
 	</Item>

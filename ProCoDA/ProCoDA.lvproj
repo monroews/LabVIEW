@@ -788,7 +788,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ProCoDA II/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ProCoDA.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9690A065-57F0-43E6-A140-DF338603702C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{735603FB-B2C0-48A7-889C-8887EBE911AA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ProCoDA.vi</Property>
@@ -879,7 +879,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">ProCoDA II</Property>
-				<Property Name="INST_productVersion" Type="Str">2.0.96</Property>
+				<Property Name="INST_productVersion" Type="Str">2.0.97</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cornell University</Property>
@@ -1308,7 +1308,11 @@
 				<Property Name="Source[95].name" Type="Str">ChemTrac.vi</Property>
 				<Property Name="Source[95].tag" Type="Ref">/My Computer/Control code/Modbus devices/ChemTrac.vi</Property>
 				<Property Name="Source[95].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">96</Property>
+				<Property Name="Source[96].dest" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>
+				<Property Name="Source[96].name" Type="Str">HF AccUView.vi</Property>
+				<Property Name="Source[96].tag" Type="Ref">/My Computer/Control code/Modbus devices/HF AccUView.vi</Property>
+				<Property Name="Source[96].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">97</Property>
 			</Item>
 		</Item>
 	</Item>

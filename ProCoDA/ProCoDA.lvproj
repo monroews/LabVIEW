@@ -760,6 +760,10 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="System" Type="VI" URL="System">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Get Application Build Version.vi" Type="VI" URL="../Get Application Build Version.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="ProCoDA II" Type="EXE">
@@ -768,6 +772,7 @@
 				<Property Name="App_INI_GUID" Type="Str">{7555CE03-F91D-4E3C-8AFC-41CD906E802E}</Property>
 				<Property Name="App_INI_itemID" Type="Ref">/My Computer/ProCoDA II.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{11F56B09-B9CA-4FBF-84BE-8307C29CFF69}</Property>
 				<Property Name="Bld_buildSpecDescription" Type="Str">add more error checking on modbus to reduce read errors</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">ProCoDA II</Property>
@@ -778,7 +783,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6427B5F6-8BB5-426D-959F-AE49F0981CF2}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">ProCoDA II.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ProCoDA II/ProCoDA II.exe</Property>
@@ -788,7 +793,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ProCoDA II/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ProCoDA.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CDCCB5DB-0450-4005-96EB-956003EF1A0D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{87F36DF7-B294-43BA-A323-FFEF39269FE1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ProCoDA.vi</Property>
@@ -798,14 +803,14 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ProCoDA.ini</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Cornell University</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">ProCoDA II connects with the ProCoDA hardware using a NI 6008 or NI 6009 USB board. ProCoDA has sensor power supplies, 4 inputs, 6 24V outputs, and can control speed and direction of 2 peristaltic pumps.</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">ProCoDA II connects with the ProCoDA hardware using a NI 6008 or NI 6009 USB board. ProCoDA has sensor power supplies, 4 inputs, 6 24V outputs, and can control speed and direction of 2 peristaltic pumps. It can also interface with modbus devices.</Property>
 				<Property Name="TgtF_internalName" Type="Str">ProCoDA II</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 Cornell University</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Cornell University</Property>
 				<Property Name="TgtF_productName" Type="Str">ProCoDA II</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{FF4212DB-C897-42FC-AAB4-A52991080F8B}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">ProCoDA II.exe</Property>
 			</Item>
-			<Item Name="ProCoDA II (distributed)" Type="Installer">
+			<Item Name="ProCoDA" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">ProCoDA II</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
@@ -875,11 +880,11 @@
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/ProCoDA Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">ProCoDA II (distributed)</Property>
+				<Property Name="INST_buildSpecName" Type="Str">ProCoDA</Property>
 				<Property Name="INST_defaultDir" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
-				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
-				<Property Name="INST_productName" Type="Str">ProCoDA II</Property>
-				<Property Name="INST_productVersion" Type="Str">2.0.98</Property>
+				<Property Name="INST_installerName" Type="Str">ProCoDA setup.exe</Property>
+				<Property Name="INST_productName" Type="Str">ProCoDA</Property>
+				<Property Name="INST_productVersion" Type="Str">2.0.100</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cornell University</Property>
@@ -887,7 +892,7 @@
 				<Property Name="MSI_distID" Type="Str">{8768BD9C-1205-4090-B082-5AAC49AEDEA5}</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{3A905B7E-EE73-4543-AB14-5D57F61DF1F9}</Property>
-				<Property Name="MSI_windowTitle" Type="Str">Welcome to ProCoDA II</Property>
+				<Property Name="MSI_windowTitle" Type="Str">Welcome to ProCoDA</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>

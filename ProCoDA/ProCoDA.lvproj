@@ -110,6 +110,7 @@
 				<Item Name="count states.vi" Type="VI" URL="../Control code/Math/count states.vi"/>
 				<Item Name="state tracker.vi" Type="VI" URL="../Control code/Math/state tracker.vi"/>
 				<Item Name="multiply.vi" Type="VI" URL="../Control code/Math/multiply.vi"/>
+				<Item Name="median.vi" Type="VI" URL="../Control code/Math/median.vi"/>
 			</Item>
 			<Item Name="Peristaltic" Type="Folder">
 				<Item Name="flow rate(pump control).vi" Type="VI" URL="../Control code/Peristaltic/flow rate(pump control).vi"/>
@@ -468,6 +469,7 @@
 		<Item Name="get local pressure from web.vi" Type="VI" URL="../calibration/Dissolved Oxygen/get local pressure from web.vi"/>
 		<Item Name="modbus.vi" Type="VI" URL="../modbus.vi"/>
 		<Item Name="Golander Pump.ctl" Type="VI" URL="../toolbar icons/Golander Pump.ctl"/>
+		<Item Name="test median.vi" Type="VI" URL="../Control code/Math/test median.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -749,6 +751,7 @@
 				<Item Name="DAQmx Read (Analog 1D Wfm NChan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan NSamp Duration).vi"/>
 				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi"/>
 				<Item Name="DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Write to xls File.vi" Type="VI" URL="../file/Write to xls File.vi"/>
@@ -1311,7 +1314,7 @@
 				<Property Name="Source[94].type" Type="Str">File</Property>
 				<Property Name="Source[95].dest" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>
 				<Property Name="Source[95].name" Type="Str">ChemTrac.vi</Property>
-				<Property Name="Source[95].tag" Type="Ref">/My Computer/Control code/Modbus devices/ChemTrac.vi</Property>
+				<Property Name="Source[95].tag" Type="Ref">/My Computer/Control code/Modbus devices/ChemTrac (0).vi</Property>
 				<Property Name="Source[95].type" Type="Str">File</Property>
 				<Property Name="Source[96].dest" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>
 				<Property Name="Source[96].name" Type="Str">HF AccUView.vi</Property>

@@ -796,7 +796,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ProCoDA II/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ProCoDA.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BFA05C61-22F1-4C82-9A04-27DE70E66E5E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8FF86FFB-6910-4576-9272-B5B10F09804C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ProCoDA.vi</Property>
@@ -1313,7 +1313,7 @@
 				<Property Name="Source[94].tag" Type="Ref">/My Computer/Control code/Modbus devices/ChemTrac read all.vi</Property>
 				<Property Name="Source[94].type" Type="Str">File</Property>
 				<Property Name="Source[95].dest" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>
-				<Property Name="Source[95].name" Type="Str">ChemTrac.vi</Property>
+				<Property Name="Source[95].name" Type="Str">ChemTrac (0).vi</Property>
 				<Property Name="Source[95].tag" Type="Ref">/My Computer/Control code/Modbus devices/ChemTrac (0).vi</Property>
 				<Property Name="Source[95].type" Type="Str">File</Property>
 				<Property Name="Source[96].dest" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>

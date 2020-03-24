@@ -787,7 +787,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6427B5F6-8BB5-426D-959F-AE49F0981CF2}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">ProCoDA II.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ProCoDA II/ProCoDA II.exe</Property>
@@ -797,7 +797,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ProCoDA II/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ProCoDA.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{33B6CFCD-E717-4A77-AB13-2F9A580429EF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EBB88F45-778B-4D16-81EA-8A79E24E4273}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ProCoDA.vi</Property>
@@ -888,7 +888,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
 				<Property Name="INST_installerName" Type="Str">ProCoDA setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">ProCoDA</Property>
-				<Property Name="INST_productVersion" Type="Str">3.0.3</Property>
+				<Property Name="INST_productVersion" Type="Str">3.0.4</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cornell University</Property>
@@ -1323,8 +1323,8 @@
 				<Property Name="Source[96].type" Type="Str">File</Property>
 				<Property Name="Source[97].dest" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>
 				<Property Name="Source[97].File[0].dest" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>
-				<Property Name="Source[97].File[0].name" Type="Str">chemtracchannels.txt</Property>
-				<Property Name="Source[97].File[0].tag" Type="Ref">/My Computer/Control code/Modbus devices/Chemtrac/chemtracchannels.txt</Property>
+				<Property Name="Source[97].File[0].name" Type="Str">ChemTrac.vit</Property>
+				<Property Name="Source[97].File[0].tag" Type="Ref">/My Computer/Control code/Modbus devices/Chemtrac/ChemTrac.vit</Property>
 				<Property Name="Source[97].FileCount" Type="Int">1</Property>
 				<Property Name="Source[97].name" Type="Str">Chemtrac</Property>
 				<Property Name="Source[97].tag" Type="Ref">/My Computer/Control code/Modbus devices/Chemtrac</Property>

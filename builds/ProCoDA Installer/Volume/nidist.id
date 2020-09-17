@@ -1,0 +1,10 @@
+[Volume Id]
+DistributionGUID={8768BD9C-1205-4090-B082-5AAC49AEDEA5}
+DistPackageGUID={3DE91104-C144-4267-92CA-C4B94CF45B92}
+DistributionVersion=3.0.11
+DistributionType=MDF
+DistributionLanguage=9
+Volume=1
+TotalNumberOfVolumesInDistribution=1
+ExePath=ProCoDA setup.exe
+UpdateInfoFile=supportfiles\updateInfo.xml

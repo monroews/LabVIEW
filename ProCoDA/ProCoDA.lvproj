@@ -790,7 +790,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6427B5F6-8BB5-426D-959F-AE49F0981CF2}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">ProCoDA II.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ProCoDA II/ProCoDA II.exe</Property>
@@ -800,7 +800,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ProCoDA II/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ProCoDA.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DB244F7B-C13E-4BC7-9A16-996893BDC3E8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8DFEE897-2717-4428-9B56-C8A80A33880E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ProCoDA.vi</Property>
@@ -891,9 +891,9 @@
 				<Property Name="INST_defaultDir" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
 				<Property Name="INST_installerName" Type="Str">ProCoDA setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">ProCoDA</Property>
-				<Property Name="INST_productVersion" Type="Str">3.0.14</Property>
+				<Property Name="INST_productVersion" Type="Str">3.0.15</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
+				<Property Name="InstSpecVersion" Type="Str">19018005</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cornell University</Property>
 				<Property Name="MSI_arpContact" Type="Str">Monroe Weber-Shirk</Property>
 				<Property Name="MSI_distID" Type="Str">{8768BD9C-1205-4090-B082-5AAC49AEDEA5}</Property>
@@ -1240,6 +1240,10 @@
 				<Property Name="Source[81].name" Type="Str">Modbus register.vi</Property>
 				<Property Name="Source[81].tag" Type="Ref">/My Computer/Control code/Modbus devices/Modbus register.vi</Property>
 				<Property Name="Source[81].type" Type="Str">File</Property>
+				<Property Name="Source[82].dest" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>
+				<Property Name="Source[82].name" Type="Str">HF MTOL turbidimeter.vi</Property>
+				<Property Name="Source[82].tag" Type="Ref">/My Computer/Control code/Modbus devices/HF MTOL turbidimeter.vi</Property>
+				<Property Name="Source[82].type" Type="Str">File</Property>
 				<Property Name="Source[9].dest" Type="Str">{7F0FF898-4595-4183-9ADF-FC446CB9857F}</Property>
 				<Property Name="Source[9].name" Type="Str">PX136-015GV kPa.smc</Property>
 				<Property Name="Source[9].tag" Type="Ref">/My Computer/Sensor Calibration/PX136-015GV kPa.smc</Property>
@@ -1271,7 +1275,7 @@
 				<Property Name="Source[97].File[0].dest" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>
 				<Property Name="Source[97].File[0].name" Type="Str">ChemTrac.vit</Property>
 				<Property Name="Source[97].File[0].tag" Type="Ref">/My Computer/Control code/Modbus devices/Chemtrac/ChemTrac.vit</Property>
-				<Property Name="SourceCount" Type="Int">82</Property>
+				<Property Name="SourceCount" Type="Int">83</Property>
 			</Item>
 		</Item>
 	</Item>

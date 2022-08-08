@@ -470,7 +470,6 @@
 		<Item Name="modbus.vi" Type="VI" URL="../modbus.vi"/>
 		<Item Name="Golander Pump.ctl" Type="VI" URL="../toolbar icons/Golander Pump.ctl"/>
 		<Item Name="test median.vi" Type="VI" URL="../Control code/Math/test median.vi"/>
-		<Item Name="Untitled 1" Type="VI"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -781,7 +780,7 @@
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{11F56B09-B9CA-4FBF-84BE-8307C29CFF69}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">change pump state control algorithm to - is a not and 0 is always</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">update Modbus to handle MTOL+ turbidimeter (add byte swap and update address to 30002)</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">ProCoDA II</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -790,7 +789,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6427B5F6-8BB5-426D-959F-AE49F0981CF2}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">ProCoDA II.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ProCoDA II/ProCoDA II.exe</Property>
@@ -800,7 +799,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ProCoDA II/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ProCoDA.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{06DF490C-79B6-4B8C-876C-05EDF5AF16DD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F62D9A29-9AF8-48E2-B6D9-B058DDB2EBAA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ProCoDA.vi</Property>
@@ -891,7 +890,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
 				<Property Name="INST_installerName" Type="Str">ProCoDA setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">ProCoDA</Property>
-				<Property Name="INST_productVersion" Type="Str">3.0.16</Property>
+				<Property Name="INST_productVersion" Type="Str">3.0.17</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018005</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cornell University</Property>

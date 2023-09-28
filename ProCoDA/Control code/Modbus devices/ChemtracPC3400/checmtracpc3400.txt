@@ -1,0 +1,69 @@
+Address	Size	Type	Description													
+0	2	INTEGER	Acquiring													
+2	2	INTEGER	Reserved 1													
+4	2	INTEGER	Reserved 2													
+6	2	INTEGER	Reserved 3													
+8	2	INTEGER	LVAL													
+10	2	INTEGER	CVAL													
+12	2	INTEGER	Count Index													
+14	2	INTEGER	Holding													
+16	2	INTEGER	Particle Count 1 (high)													
+18	2	INTEGER	Particle Count 1 (low)													
+20	2	INTEGER	Particle Count 2 (high)													
+22	2	INTEGER	Particle Count 2 (low)													
+24	2	INTEGER	Particle Count 3 (high)													
+26	2	INTEGER	Particle Count 3 (low)													
+28	2	INTEGER	Particle Count 4 (high)													
+30	2	INTEGER	Particle Count 4 (low)													
+32	2	INTEGER	Particle Count 5 (high)													
+34	2	INTEGER	Particle Count 5 (low)													
+36	2	INTEGER	Particle Count 6 (high)													
+38	2	INTEGER	Particle Count 6 (low)													
+40	2	INTEGER	Particle Count 7 (high)													
+42	2	INTEGER	Particle Count 7 (low)													
+44	2	INTEGER	Particle Count 8 (high)													
+46	2	INTEGER	Particle Count 8 (low)													
+48	2	INTEGER	Particle Count 9 (high)													
+50	2	INTEGER	Particle Count 9 (low)													
+52	2	INTEGER	Total Counts (high)													
+54	2	INTEGER	Total Counts (low)													
+56	2	INTEGER	Alarm Output (0)													
+58	2	INTEGER	Alarm Output (1)													
+60	1	INTEGER	Unit Address													
+62	1	INTEGER	Flow Rate													
+64	2	INTEGER	Size Ranges 1 (from)													
+66	2	INTEGER	Size Ranges 1 (to)													
+68	2	INTEGER	Size Ranges 2 (from)													
+70	2	INTEGER	Size Ranges 2 (to)													
+72	2	INTEGER	Size Ranges 3 (from)													
+74	2	INTEGER	Size Ranges 3 (to)													
+76	2	INTEGER	Size Ranges 4 (from)													
+78	2	INTEGER	Size Ranges 4 (to)													
+80	2	INTEGER	Size Ranges 5 (from)													
+82	2	INTEGER	Size Ranges 5 (to)													
+84	2	INTEGER	Size Ranges 6 (from)													
+86	2	INTEGER	Size Ranges 6 (to)													
+88	2	INTEGER	Size Ranges 7 (from)													
+90	2	INTEGER	Size Ranges 7 (to)													
+92	2	INTEGER	Size Ranges 8 (from)													
+94	2	INTEGER	Size Ranges 8 (to)													
+96	2	INTEGER	Sample Frequency													
+98	2	INTEGER	Sample Time													
+100	2	INTEGER	CLOCK (year)													
+102	2	INTEGER	CLOCK (month)													
+104	2	INTEGER	CLOCK (day)													
+106	2	INTEGER	CLOCK (hour)													
+108	2	INTEGER	CLOCK (minute)													
+110	2	INTEGER	CLOCK (second)													
+112	2	INTEGER	ALARM HIGH THRESHOLD 1													
+114	2	INTEGER	ALARM LOW THRESHOLD 1													
+116	2	INTEGER	ALARM HIGH THRESHOLD 2													
+118	2	INTEGER	ALARM LOW THRESHOLD 2													
+120	2	INTEGER	ANALOG INPUT 1-1													
+122	2	INTEGER	ANALOG INPUT 1-2													
+124	2	INTEGER	ANALOG INPUT 1-3													
+126	2	INTEGER	ANALOG INPUT 1-4													
+128	2	INTEGER	ANALOG INPUT 2-1													
+130	2	INTEGER	ANALOG INPUT 2-2													
+132	2	INTEGER	ANALOG INPUT 2-3													
+134	2	INTEGER	ANALOG INPUT 2-4													

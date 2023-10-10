@@ -893,7 +893,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
 				<Property Name="INST_installerName" Type="Str">ProCoDA setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">ProCoDA</Property>
-				<Property Name="INST_productVersion" Type="Str">3.0.21</Property>
+				<Property Name="INST_productVersion" Type="Str">3.0.22</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cornell University</Property>

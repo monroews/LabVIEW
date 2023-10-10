@@ -808,7 +808,7 @@
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ProCoDA.ini</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Control code/Modbus devices/ChemTrac PC3400 read all.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">Cornell University</Property>
@@ -893,7 +893,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{8A2F0D6E-C7B2-46CF-84EF-CEDD4267273D}</Property>
 				<Property Name="INST_installerName" Type="Str">ProCoDA setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">ProCoDA</Property>
-				<Property Name="INST_productVersion" Type="Str">3.0.22</Property>
+				<Property Name="INST_productVersion" Type="Str">3.0.25</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Cornell University</Property>
@@ -1254,10 +1254,6 @@
 				<Property Name="Source[83].name" Type="Str">ChemtracPC3400</Property>
 				<Property Name="Source[83].tag" Type="Ref">/My Computer/Control code/Modbus devices/ChemtracPC3400</Property>
 				<Property Name="Source[83].type" Type="Str">Folder</Property>
-				<Property Name="Source[84].dest" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>
-				<Property Name="Source[84].name" Type="Str">ChemTrac PC3400 read all.vi</Property>
-				<Property Name="Source[84].tag" Type="Ref">/My Computer/Control code/Modbus devices/ChemTrac PC3400 read all.vi</Property>
-				<Property Name="Source[84].type" Type="Str">File</Property>
 				<Property Name="Source[9].dest" Type="Str">{7F0FF898-4595-4183-9ADF-FC446CB9857F}</Property>
 				<Property Name="Source[9].name" Type="Str">PX136-015GV kPa.smc</Property>
 				<Property Name="Source[9].tag" Type="Ref">/My Computer/Sensor Calibration/PX136-015GV kPa.smc</Property>
@@ -1289,7 +1285,7 @@
 				<Property Name="Source[97].File[0].dest" Type="Str">{4C8EE8AB-4DB3-4713-A9E1-E144417BA609}</Property>
 				<Property Name="Source[97].File[0].name" Type="Str">ChemTrac.vit</Property>
 				<Property Name="Source[97].File[0].tag" Type="Ref">/My Computer/Control code/Modbus devices/Chemtrac/ChemTrac.vit</Property>
-				<Property Name="SourceCount" Type="Int">85</Property>
+				<Property Name="SourceCount" Type="Int">84</Property>
 			</Item>
 		</Item>
 	</Item>
